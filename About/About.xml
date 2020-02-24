@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>Jaxe.MoreFilters</packageId>
+  <name>More Filters</name>
+  <author>Jaxe</author>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+  </supportedVersions>
+  <description>This mod adds several new filters to item lists to make it easier to customize your stockpiles and bills.\n\nCurrently, the following filters can be selected/deselected:\n\n*Rottable (all items that can rot unless frozen)\n*Degradable (all items that will deteriorate unless under shelter)\n\nAlso for Weapons and Apparel, filters are added for each tech level so for example you can quickly make a Smelt Weapon bill that only affects medieval weapons.\n\nThis mod can be added or removed from a savegame at any time without issue.</description>
+</ModMetaData>
