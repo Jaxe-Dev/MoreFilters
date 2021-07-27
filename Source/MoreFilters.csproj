@@ -47,9 +47,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\.gitignore">
-      <Link>-\.gitignore</Link>
-    </Content>
     <Content Include="..\About\About.xml">
       <Link>-\About\About.xml</Link>
     </Content>
