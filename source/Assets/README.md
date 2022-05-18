@@ -18,6 +18,8 @@ Currently, the following filters can be selected/deselected:
 
 Also for Weapons and Apparel, filters are added for each tech level so for example you can quickly make a Smelt Weapon bill that only affects medieval weapons.
 
+Finally, additional filters are available for food, meats, and corpses, allowing filtering of pets, farm animals and more.
+
 This mod can be added or removed from a savegame at any time without issue.
 
 ---
