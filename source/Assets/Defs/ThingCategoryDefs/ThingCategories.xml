@@ -12,6 +12,54 @@
   </ThingCategoryDef>
 
   <ThingCategoryDef>
+    <defName>FilterFoodConventional</defName>
+    <label>*Conventional</label>
+    <parent>Foods</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>FilterMeatPet</defName>
+    <label>*Pet</label>
+    <parent>MeatRaw</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>FilterMeatFarm</defName>
+    <label>*Farm</label>
+    <parent>MeatRaw</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>FilterMeatFighter</defName>
+    <label>*Aggressive</label>
+    <parent>MeatRaw</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>FilterMeatGame</defName>
+    <label>*Game</label>
+    <parent>MeatRaw</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>FilterCorpsePet</defName>
+    <label>*Pet</label>
+    <parent>CorpsesAnimal</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>FilterCorpseFarm</defName>
+    <label>*Farm</label>
+    <parent>CorpsesAnimal</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>FilterCorpseFighter</defName>
+    <label>*Fighter</label>
+    <parent>CorpsesAnimal</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>FilterCorpseGame</defName>
+    <label>*Game</label>
+    <parent>CorpsesAnimal</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
     <defName>FilterApparelNeolithic</defName>
     <label>*Neolithic</label>
     <parent>Apparel</parent>
