@@ -20,6 +20,8 @@ Also for Weapons and Apparel, filters are added for each tech level so for examp
 
 Finally, additional filters are available for food, meats, and corpses, allowing filtering of pets, farm animals and more.
 
+Any filter can be disabled in the settings menu.
+
 This mod can be added or removed from a savegame at any time without issue.
 
 ---
@@ -34,5 +36,6 @@ The following base methods are patched with Harmony:
 Prefix  : Verse.ThingCategoryNodeDatabase.FinalizeInit
 Postfix : Verse.ThingCategoryNodeDatabase.FinalizeInit
 Prefix* : Verse_ThingFilter_RecalculateDisplayRootCategory
+Postfix : RimWorld_ResourceReadout.ctor
 ```
 *A prefix marked by a \* denotes that in some circumstances the original method will be bypassed*

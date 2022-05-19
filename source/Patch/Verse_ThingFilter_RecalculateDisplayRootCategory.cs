@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Reflection;
 using HarmonyLib;
+using MoreFilters.Filters;
 using Verse;
 
 namespace MoreFilters.Patch
@@ -21,10 +22,11 @@ namespace MoreFilters.Patch
 
       __instance.DisplayRootCategory = ThingCategoryNodeDatabase.RootNode;
 
-      foreach (var node in ThingCategoryNodeDatabase.allThingCategoryNodes.Where(node => !Mod.AllFilters.Contains(node.catDef)))
+      foreach (var node in ThingCategoryNodeDatabase.allThingCategoryNodes.Where(node => !Core.AllFilters.Contains(node.catDef)))
       {
         var flag = false;
         var flag2 = false;
+
         foreach (var thingDef in allowedDefsField)
         {
           if (node.catDef.ContainedInThisOrDescendant(thingDef)) { flag2 = true; }
