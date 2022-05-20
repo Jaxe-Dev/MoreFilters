@@ -61,11 +61,11 @@
     <Compile Include="Mod.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\README.md" />
     <None Include="Assets\About\About.xml" />
     <None Include="Assets\About\Preview.png" />
     <None Include="Assets\About\PublishedFileId.txt" />
     <None Include="Assets\Defs\ThingCategoryDefs\ThingCategories.xml" />
-    <None Include="Assets\README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(ProjectDir)release.targets" />
